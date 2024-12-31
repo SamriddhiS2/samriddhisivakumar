@@ -4,43 +4,53 @@
  */
 
 /**
+ * Images
+ */
+import project1 from "/images/project-1.jpg";
+import project2 from "/images/project-2.jpg";
+import project3 from "/images/project-3.jpg";
+import project4 from "/images/project-4.jpg";
+import project5 from "/images/project-5.jpg";
+import project6 from "/images/project-6.jpg";
+
+/**
  * Components
  */
 import ProjectCard from "./ProjectCard";
 
 const works = [
   {
-    imgSrc: '/images/project-1.jpg',
+    imgSrc: {project1},
     title: 'Full stack music app',
     tags: ['API', 'MVC', 'Development'],
     projectLink: 'https://musify-5al0.onrender.com/'
   },
   {
-    imgSrc: '/images/project-2.jpg',
+    imgSrc: {project2},
     title: 'Free stock photo app',
     tags: ['API', 'SPA'],
     projectLink: 'https://pixstock-official.vercel.app/'
   },
   {
-    imgSrc: '/images/project-3.jpg',
+    imgSrc: {project3},
     title: 'Recipe app',
     tags: ['Development', 'API'],
     projectLink: ''
   },
   {
-    imgSrc: '/images/project-4.jpg',
+    imgSrc: {project4},
     title: 'Real state website',
     tags: ['Web-design', 'Development'],
     projectLink: 'https://github.com/codewithsadee-org/wealthome'
   },
   {
-    imgSrc: '/images/project-5.jpg',
+    imgSrc: {project5},
     title: 'eCommerce website',
     tags: ['eCommerce', 'Development'],
     projectLink: 'https://github.com/codewithsadee/anon-ecommerce-website'
   },
   {
-    imgSrc: '/images/project-6.jpg',
+    imgSrc: {project6},
     title: 'vCard Personal portfolio',
     tags: ['Web-design', 'Development'],
     projectLink: 'https://github.com/codewithsadee/vcard-personal-portfolio'

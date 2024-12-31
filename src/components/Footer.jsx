@@ -4,6 +4,11 @@
  */
 
 /**
+ * Images
+ */
+import logo from "/images/logo.png";
+
+/**
  * Components
  */
 import { ButtonPrimary } from "./Button";
@@ -108,7 +113,7 @@ const Footer = () => {
           className="logo reveal-up"
         >
           <img
-            src="/images/logo.png"
+            src={logo}
             width={40}
             height={40}
             alt="Logo"

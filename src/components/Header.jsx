@@ -4,6 +4,11 @@
  */
 
 /**
+ * Images
+ */
+import logo from "/images/logo.png";
+
+/**
  * Node modules
  */
 import { useState } from "react";
@@ -25,7 +30,7 @@ const Header = () => {
           className="logo"
           >
             <img
-              src="/images/logo.png"
+              src={logo}
               width={40}
               height={40}
               alt="Samriddhi Sivakumar"

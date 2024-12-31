@@ -3,6 +3,9 @@
  * @license Apache-2.0
  */
 
+/**
+ * Images
+ */
 import logo from "/images/logo.png";
 
 const aboutItems = [
