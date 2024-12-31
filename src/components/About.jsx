@@ -3,6 +3,8 @@
  * @license Apache-2.0
  */
 
+import logo from "/images/logo.png";
+
 const aboutItems = [
   {
     label: 'Projects done',
@@ -41,7 +43,7 @@ const About = () => {
             }
 
             <img
-              src="/images/logo.png"
+              src={logo}
               alt="Logo"
               width={30}
               height={30}
